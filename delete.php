@@ -17,7 +17,7 @@ $sql="DELETE FROM gallery WHERE id='$id'";
 $result= mysqli_query($conn,$sql);
 if($result)
 {
-    header('location:index.php');
+    header('location:view.php');
 }
 else{
     die("not deleted".mysqli_error($conn));
