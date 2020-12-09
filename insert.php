@@ -31,7 +31,7 @@ if(!$result)
 }
 else{
     move_uploaded_file($image_temp_name,$target);
-    header('location:view.php');
+    header('location:index.php');
 }
 
         }
