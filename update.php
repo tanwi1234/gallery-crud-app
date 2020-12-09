@@ -41,7 +41,7 @@ if(!$result)
 }
 else{
     move_uploaded_file($image_temp_name,$target);
-    header('location:view.php');
+    header('location:index.php');
 }
 
         }
@@ -73,7 +73,7 @@ die("not updated".mysqli_error($conn));
 }
 else{
 move_uploaded_file($image_temp_name,$target);
-header('location:view.php');
+header('location:index.php');
 }
 
 
@@ -90,7 +90,7 @@ header('location:view.php');
  <title></title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
+  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
