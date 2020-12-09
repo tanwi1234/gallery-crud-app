@@ -41,7 +41,7 @@ if(!$result)
 }
 else{
     move_uploaded_file($image_temp_name,$target);
-    header('location:index.php');
+    header('location:view.php');
 }
 
         }
@@ -73,7 +73,7 @@ die("not updated".mysqli_error($conn));
 }
 else{
 move_uploaded_file($image_temp_name,$target);
-header('location:index.php');
+header('location:view.php');
 }
 
 
