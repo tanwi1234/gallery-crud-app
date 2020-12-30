@@ -37,7 +37,7 @@ else{
         }
         else{
             "<script> alert('image size should be less than 1 mb')
-            window.location.href='insert.php';
+            window.location.href='index.php';
         </script>";
 
         }
@@ -45,7 +45,7 @@ else{
     }
     else{
         "<script> alert('image format not supported');
-        window.location.href='insert.php';
+        window.location.href='index.php';
         </script>";
 
     }
@@ -108,7 +108,7 @@ label,input
 
  <div class="col-lg-6 " id="main">
  
- <form method="POST"enctype='multipart/form-data' action='insert.php'>
+ <form method="POST"enctype='multipart/form-data' action='index.php'>
  
  <div class="card">
  
