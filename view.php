@@ -54,7 +54,7 @@ if(!$conn)
 <table class="table table-bordered table-secondary border-dark  table-hover table-striped my-3" id="myTable">
   <thead class="table-light">
   <tr>
-  <th colspan="6" class="text-center "> <h2>GALLERY CRUD APP <a class="btn btn-Info" href="insert.php" role="button" id="btn">Add</a></h2></th>
+  <th colspan="6" class="text-center "> <h2>GALLERY CRUD APP <a class="btn btn-Info" href="index.php" role="button" id="btn">Add</a></h2></th>
   </tr>
     <tr>
       <th scope="col" class="text-center " >ID</th>
