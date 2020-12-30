@@ -1,8 +1,8 @@
 <?php
-$servername="localhost";
-$username="root";
-$password="";
-$database="gallerycrud";
+$servername="remotemysql.com";
+$username="PN02GWpVS2";
+$password="pbj5JWRygd";
+$database="PN02GWpVS2";
 $conn=mysqli_connect($servername,$username,$password,$database);
 if(!$conn)
 {
